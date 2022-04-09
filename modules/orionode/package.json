@@ -29,7 +29,7 @@
     "passport-local-mongoose-email": "^0.1.2",
     "rimraf": "~2.2.6",
     "socket.io": "~1.0.4",
-    "term.js": "0.0.3",
+    "term.js": "0.0.7",
     "nodegit": "~0.11.9",
     "vhost": "^3.0.2"
   },
