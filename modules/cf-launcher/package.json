@@ -33,7 +33,7 @@
     "compression": "~1.0.7",
     "connect-flash": "~0.1.1",
     "cors": "~2.5.2",
-    "ejs": "~1.0.0",
+    "ejs": "~3.1.7",
     "express": "~4.4.2",
     "jsDAV": "~0.3.2",
     "http-proxy": "~1.1.4",
