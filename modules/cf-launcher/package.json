@@ -37,7 +37,7 @@
     "express": "~4.4.2",
     "jsDAV": "~0.3.2",
     "http-proxy": "~1.1.4",
-    "node-inspector": "~0.7.4",
+    "node-inspector": "~0.10.1",
     "minimist": "~0.2.0",
     "debug": "~1.0.2",
     "split": "~0.3.0",
