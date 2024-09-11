@@ -4,8 +4,9 @@
   "description": "Launcher daemon for Cloud Foundry + Node.js development.",
   "main": "index.js",
   "scripts": {
-    "prepublish": "node ./lib/dos2unix.js ./bin/launcher.js",
-    "test": "npm test"
+    "prepublish": "npm run snyk-protect && node ./lib/dos2unix.js ./bin/launcher.js",
+    "test": "npm test",
+    "snyk-protect": "snyk-protect"
   },
   "bin": {
     "launcher": "./bin/launcher.js"
@@ -37,13 +38,15 @@
     "express": "~4.4.2",
     "jsDAV": "~0.3.2",
     "http-proxy": "~1.1.4",
-    "node-inspector": "~0.7.4",
+    "node-inspector": "~0.12.8",
     "minimist": "~0.2.0",
     "debug": "~1.0.2",
     "split": "~0.3.0",
-    "tty.js": "~0.2.13"
+    "tty.js": "~0.2.13",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "mocha": "~1.20.1"
-  }
+  },
+  "snyk": true
 }

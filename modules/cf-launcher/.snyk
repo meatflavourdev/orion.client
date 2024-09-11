@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - node-inspector > express > send > mime:
+        patched: '2024-09-11T01:44:44.918Z'
+        id: 'npm:mime:20170907'
+        path: node-inspector > express > send > mime
+    - tty.js > express > send > mime:
+        patched: '2024-09-11T01:44:44.918Z'
+        id: 'npm:mime:20170907'
+        path: tty.js > express > send > mime
+    - node-inspector > express > serve-static > send > mime:
+        patched: '2024-09-11T01:44:44.918Z'
+        id: 'npm:mime:20170907'
+        path: node-inspector > express > serve-static > send > mime
+    - tty.js > express > connect > send > mime:
+        patched: '2024-09-11T01:44:44.918Z'
+        id: 'npm:mime:20170907'
+        path: tty.js > express > connect > send > mime
+  'npm:minimatch:20160620':
+    - node-inspector > glob > minimatch:
+        patched: '2024-09-11T01:44:44.918Z'
+        id: 'npm:minimatch:20160620'
+        path: node-inspector > glob > minimatch
+  'npm:negotiator:20160616':
+    - node-inspector > express > accepts > negotiator:
+        patched: '2024-09-11T01:44:44.918Z'
+        id: 'npm:negotiator:20160616'
+        path: node-inspector > express > accepts > negotiator
+    - tty.js > express > connect > negotiator:
+        patched: '2024-09-11T01:44:44.918Z'
+        id: 'npm:negotiator:20160616'
+        path: tty.js > express > connect > negotiator
+  'npm:qs:20140806-1':
+    - tty.js > express > connect > qs:
+        patched: '2024-09-11T01:44:44.918Z'
+        id: 'npm:qs:20140806-1'
+        path: tty.js > express > connect > qs
+  'npm:ws:20160920':
+    - node-inspector > ws:
+        patched: '2024-09-11T01:44:44.918Z'
+        id: 'npm:ws:20160920'
+        path: node-inspector > ws
+    - tty.js > socket.io > socket.io-client > ws:
+        patched: '2024-09-11T01:44:44.918Z'
+        id: 'npm:ws:20160920'
+        path: tty.js > socket.io > socket.io-client > ws
